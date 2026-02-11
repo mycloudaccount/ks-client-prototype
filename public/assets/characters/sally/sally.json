@@ -1,0 +1,40 @@
+{
+  "CHAR_NAME": "sally",
+  "JUMP_STRENGTH": 12.0,
+  "SPRITE_SCALE_FACTOR": 0.24,
+  "RENDER_SIZE": 256,
+  "DEFAULT_ANIMATION_NAME": "idle",
+  "HEADSHOTS": {
+    "left": "2d_left\\headshot.png"
+  },
+  "ANIMATIONS": {
+    "walk": {
+      "FRAME_COUNT": 12,
+      "FPS": 24,
+      "START_FRAME": 1,
+      "END_FRAME": 25,
+      "SAMPLED": true
+    },
+    "run": {
+      "FRAME_COUNT": 17,
+      "FPS": 24,
+      "START_FRAME": 1,
+      "END_FRAME": 18,
+      "SAMPLED": true
+    },
+    "jump": {
+      "FRAME_COUNT": 29,
+      "FPS": 24,
+      "START_FRAME": 1,
+      "END_FRAME": 58,
+      "SAMPLED": true
+    },
+    "idle": {
+      "FRAME_COUNT": 24,
+      "FPS": 6,
+      "START_FRAME": 1,
+      "END_FRAME": 241,
+      "SAMPLED": true
+    }
+  }
+}

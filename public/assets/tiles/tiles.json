@@ -1,0 +1,180 @@
+{
+  "version": 1,
+  "generatedBy": "kingdom-stack-blender",
+  "tiles": [
+    {
+      "id": "minecraft_dirt",
+      "kind": "tile",
+      "images": {
+        "right": "minecraft_dirt__right.png",
+        "back": "minecraft_dirt__back.png",
+        "left": "minecraft_dirt__left.png",
+        "front": "minecraft_dirt__front.png"
+      },
+      "variants": [
+        "right",
+        "back",
+        "left",
+        "front"
+      ],
+      "phaserColor": 5636608,
+      "uiColor": "bg-gray-400",
+      "properties": {
+        "ks_asset_id": "minecraft_dirt",
+        "ks_kind": "tile_mesh",
+        "ks_source_file": "minecraft_dirt"
+      },
+      "metadata": {
+        "sourceModel": "minecraft_dirt.obj"
+      }
+    },
+    {
+      "id": "minecraft_dirt_grass",
+      "kind": "tile",
+      "images": {
+        "right": "minecraft_dirt_grass__right.png",
+        "back": "minecraft_dirt_grass__back.png",
+        "left": "minecraft_dirt_grass__left.png",
+        "front": "minecraft_dirt_grass__front.png"
+      },
+      "variants": [
+        "right",
+        "back",
+        "left",
+        "front"
+      ],
+      "phaserColor": 5833216,
+      "uiColor": "bg-green-500",
+      "properties": {
+        "ks_asset_id": "minecraft_dirt_grass",
+        "ks_kind": "tile_mesh",
+        "ks_source_file": "minecraft_dirt_grass",
+        "walkable": true,
+        "cost": 1,
+        "biome": "grassland",
+        "uiColor": "bg-green-500"
+      },
+      "metadata": {
+        "sourceModel": "minecraft_dirt_grass.obj"
+      }
+    },
+    {
+      "id": "minecraft_sand",
+      "kind": "tile",
+      "images": {
+        "right": "minecraft_sand__right.png",
+        "back": "minecraft_sand__back.png",
+        "left": "minecraft_sand__left.png",
+        "front": "minecraft_sand__front.png"
+      },
+      "variants": [
+        "right",
+        "back",
+        "left",
+        "front"
+      ],
+      "phaserColor": 11628597,
+      "uiColor": "bg-gray-400",
+      "properties": {
+        "ks_asset_id": "minecraft_sand",
+        "ks_kind": "tile_mesh",
+        "ks_source_file": "minecraft_sand"
+      },
+      "metadata": {
+        "sourceModel": "minecraft_sand.obj"
+      }
+    },
+    {
+      "id": "minecraft_stone",
+      "kind": "tile",
+      "images": {
+        "right": "minecraft_stone__right.png",
+        "back": "minecraft_stone__back.png",
+        "left": "minecraft_stone__left.png",
+        "front": "minecraft_stone__front.png"
+      },
+      "variants": [
+        "right",
+        "back",
+        "left",
+        "front"
+      ],
+      "phaserColor": 4802889,
+      "uiColor": "bg-gray-400",
+      "properties": {
+        "ks_asset_id": "minecraft_stone",
+        "ks_kind": "tile_mesh",
+        "ks_source_file": "minecraft_stone"
+      },
+      "metadata": {
+        "sourceModel": "minecraft_stone.obj"
+      }
+    },
+    {
+      "id": "minecraft_water",
+      "kind": "tile",
+      "images": {
+        "right": "minecraft_water__right.png",
+        "back": "minecraft_water__back.png",
+        "left": "minecraft_water__left.png",
+        "front": "minecraft_water__front.png"
+      },
+      "variants": [
+        "right",
+        "back",
+        "left",
+        "front"
+      ],
+      "phaserColor": 610746,
+      "uiColor": "bg-blue-500",
+      "properties": {
+        "ks_asset_id": "minecraft_water",
+        "ks_kind": "tile_mesh",
+        "ks_source_file": "minecraft_water",
+        "walkable": false,
+        "cost": 99,
+        "biome": "water",
+        "editorAnimated": true,
+        "editorAnimationDelay": 600,
+        "cascading": false,
+        "uiColor": "bg-blue-500"
+      },
+      "metadata": {
+        "sourceModel": "minecraft_water.obj"
+      }
+    },
+    {
+      "id": "minecraft_waterfall",
+      "kind": "tile",
+      "images": {
+        "right": "minecraft_waterfall__right.png",
+        "back": "minecraft_waterfall__back.png",
+        "left": "minecraft_waterfall__left.png",
+        "front": "minecraft_waterfall__front.png"
+      },
+      "variants": [
+        "right",
+        "back",
+        "left",
+        "front"
+      ],
+      "phaserColor": 1201864,
+      "uiColor": "bg-blue-500",
+      "properties": {
+        "ks_asset_id": "minecraft_waterfall",
+        "ks_kind": "tile_mesh",
+        "ks_source_file": "minecraft_waterfall",
+        "walkable": false,
+        "cost": 99,
+        "biome": "water",
+        "editorAnimated": true,
+        "editorAnimationDelay": 600,
+        "cascading": true,
+        "uiColor": "bg-blue-500"
+      },
+      "metadata": {
+        "sourceModel": "minecraft_waterfall.obj"
+      }
+    }
+  ]
+}
